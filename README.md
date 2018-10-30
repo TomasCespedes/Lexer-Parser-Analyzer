@@ -1,7 +1,7 @@
 # Lexer-Parser-Analyzer
 ## About the Project
 Lexer and Parser program was a 2 part program that was assigned as a project during my Programming Languages class.
-CLite is our simplified programming language that looks a little like C and Java. In this assignment we completed the lexical analyzer (lexer) for CLite.
+CLite is our simplified programming language that looks a little like C and Java. Given a text file, we should be able to run through it and count all the tokens and the kind of tokens they are. If there are illegal decelerations like 
 
 These programs were written using PyCharm. I have uploaded what I completed during the school year but since we did not use GitHub for the class there is no step by step commit available. 
 The Lexer was Part 1 of the assignment. In order to test the lexer I used the lexertest.c file that is available in the repository.
