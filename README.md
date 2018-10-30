@@ -33,10 +33,13 @@ The Language that we had to follow for Part 2 is below.
   UnaryOp         ⇒  - | !
   Primary         ⇒  Identifier | IntLit | FloatLit | ( Expression ) | true | false
 
-# Part 1: Running just the lexer output.
+# Part 1: Running just the lexer on lexertest.c file. Should return all the tokens, legal and illegal, and their line number.
 ![image](https://user-images.githubusercontent.com/35609863/47688890-ba8e7400-dbbd-11e8-99ad-a27a9d45898a.png)
 
 ![image](https://user-images.githubusercontent.com/35609863/47688900-c8dc9000-dbbd-11e8-9f0e-b0a8915c9127.png)
 
 ![image](https://user-images.githubusercontent.com/35609863/47688903-ced27100-dbbd-11e8-81ef-8f7c0840f73d.png)
 
+# Part 2: Running the parser, which uses the lexer, on test.c file. Should return the same format as before and follow the rules of the language provided.
+
+![image](https://user-images.githubusercontent.com/35609863/47688984-37215280-dbbe-11e8-99ed-e98ac2963bbb.png)
