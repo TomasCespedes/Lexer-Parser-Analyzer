@@ -32,3 +32,6 @@ The Language that we had to follow for Part 2 is below.
   Factor          ⇒  [ UnaryOp ] Primary
   UnaryOp         ⇒  - | !
   Primary         ⇒  Identifier | IntLit | FloatLit | ( Expression ) | true | false
+
+# Part 1: Running just the lexer output.
+![image](https://user-images.githubusercontent.com/35609863/47688830-8450f480-dbbd-11e8-93e8-b1952449d913.png)
