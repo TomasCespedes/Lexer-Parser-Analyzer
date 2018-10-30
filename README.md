@@ -34,4 +34,9 @@ The Language that we had to follow for Part 2 is below.
   Primary         ⇒  Identifier | IntLit | FloatLit | ( Expression ) | true | false
 
 # Part 1: Running just the lexer output.
-![image](https://user-images.githubusercontent.com/35609863/47688830-8450f480-dbbd-11e8-93e8-b1952449d913.png)
+![image](https://user-images.githubusercontent.com/35609863/47688890-ba8e7400-dbbd-11e8-99ad-a27a9d45898a.png)
+
+![image](https://user-images.githubusercontent.com/35609863/47688900-c8dc9000-dbbd-11e8-9f0e-b0a8915c9127.png)
+
+![image](https://user-images.githubusercontent.com/35609863/47688903-ced27100-dbbd-11e8-81ef-8f7c0840f73d.png)
+
