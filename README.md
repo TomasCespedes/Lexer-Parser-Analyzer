@@ -8,7 +8,7 @@ The Lexer was Part 1 of the assignment. In order to test the lexer I used the le
 The Parser was Part 2 of the assignment which builds upon Part 1. In order to test the Parser, I ran it using the test.c file that is also available within the repository. 
 
 ## Language Rules Given by Professor
-The Language that we had to follow for Part 2 is below.
+The Language that we had to follow for Part 2 is below. <br />
   Program         ⇒  int  main ( ) { Declarations Statements } <br />
   Declarations    ⇒  { Declaration } <br />
   Declaration     ⇒  Type  Identifier  ; <br />
