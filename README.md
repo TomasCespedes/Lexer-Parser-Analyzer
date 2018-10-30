@@ -9,12 +9,12 @@ The Parser was Part 2 of the assignment which builds upon Part 1. In order to te
 
 ## Language Rules Given by Professor
 The Language that we had to follow for Part 2 is below.
-  Program         ⇒  int  main ( ) { Declarations Statements }
-  Declarations    ⇒  { Declaration }
-  Declaration     ⇒  Type  Identifier  ;
-  Type            ⇒  int | bool | float
-  Statements      ⇒  { Statement }
-  Statement       ⇒  ; | Block | Assignment | IfStatement 
+  Program         ⇒  int  main ( ) { Declarations Statements } <br />
+  Declarations    ⇒  { Declaration } <br />
+  Declaration     ⇒  Type  Identifier  ; <br />
+  Type            ⇒  int | bool | float <br />
+  Statements      ⇒  { Statement } <br />
+  Statement       ⇒  ; | Block | Assignment | IfStatement  <br />
                        | WhileStatement | PrintStatement
   Block           ⇒  { Statements }
   Assignment      ⇒  Identifier = Expression ;
