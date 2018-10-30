@@ -14,8 +14,7 @@ The Language that we had to follow for Part 2 is below. <br />
   Declaration     ⇒  Type  Identifier  ; <br />
   Type            ⇒  int | bool | float <br />
   Statements      ⇒  { Statement } <br />
-  Statement       ⇒  ; | Block | Assignment | IfStatement  <br />
-                       | WhileStatement | PrintStatement <br />
+  Statement       ⇒  ; | Block | Assignment | IfStatement | WhileStatement | PrintStatement <br />
   Block           ⇒  { Statements } <br />
   Assignment      ⇒  Identifier = Expression ; <br />
   IfStatement     ⇒  if ( Expression ) Statement [ else Statement ] <br />
