@@ -15,25 +15,25 @@ The Language that we had to follow for Part 2 is below.
   Type            ⇒  int | bool | float <br />
   Statements      ⇒  { Statement } <br />
   Statement       ⇒  ; | Block | Assignment | IfStatement  <br />
-                       | WhileStatement | PrintStatement
-  Block           ⇒  { Statements }
-  Assignment      ⇒  Identifier = Expression ;
-  IfStatement     ⇒  if ( Expression ) Statement [ else Statement ]
-  WhileStatement  ⇒  while ( Expression ) Statement 
-  PrintStatement  ⇒  print( Expression ) ;  
-  Expression      ⇒  Conjunction { || Conjunction }
-  Conjunction     ⇒  Equality { && Equality }
-  Equality        ⇒  Relation [ EquOp Relation ]
-  EquOp           ⇒  == | != 
-  Relation        ⇒  Addition [ RelOp Addition ]
-  RelOp           ⇒  < | <= | > | >= 
-  Addition        ⇒  Term { AddOp Term }
-  AddOp           ⇒  + | -
-  Term            ⇒  Factor { MulOp Factor }
-  MulOp           ⇒  * | / | %
-  Factor          ⇒  [ UnaryOp ] Primary
-  UnaryOp         ⇒  - | !
-  Primary         ⇒  Identifier | IntLit | FloatLit | ( Expression ) | true | false
+                       | WhileStatement | PrintStatement <br />
+  Block           ⇒  { Statements } <br />
+  Assignment      ⇒  Identifier = Expression ; <br />
+  IfStatement     ⇒  if ( Expression ) Statement [ else Statement ] <br />
+  WhileStatement  ⇒  while ( Expression ) Statement  <br />
+  PrintStatement  ⇒  print( Expression ) ;   <br />
+  Expression      ⇒  Conjunction { || Conjunction } <br />
+  Conjunction     ⇒  Equality { && Equality } <br />
+  Equality        ⇒  Relation [ EquOp Relation ] <br />
+  EquOp           ⇒  == | !=  <br />
+  Relation        ⇒  Addition [ RelOp Addition ] <br />
+  RelOp           ⇒  < | <= | > | >=  <br />
+  Addition        ⇒  Term { AddOp Term } <br />
+  AddOp           ⇒  + | - <br />
+  Term            ⇒  Factor { MulOp Factor } <br />
+  MulOp           ⇒  * | / | % <br />
+  Factor          ⇒  [ UnaryOp ] Primary <br />
+  UnaryOp         ⇒  - | ! <br />
+  Primary         ⇒  Identifier | IntLit | FloatLit | ( Expression ) | true | false <br />
 
 ## Part 1: Running just the lexer on lexertest.c file. Should return all the tokens, legal and illegal, and their line number.
 ![image](https://user-images.githubusercontent.com/35609863/47688890-ba8e7400-dbbd-11e8-99ad-a27a9d45898a.png)
